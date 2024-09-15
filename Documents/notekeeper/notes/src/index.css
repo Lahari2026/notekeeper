@@ -1,0 +1,117 @@
+/* General body styling */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  background-image: url('./background.jpg.png'); /* Replace with your image path */
+  background-size: cover; /* Ensures the image covers the entire area */
+  background-position: center; /* Centers the image */
+  background-attachment: fixed; /* Keeps the background image fixed while scrolling */
+  background-color: #f4f4f4;
+}
+
+/* Main App styling */
+.App {
+  text-align: center;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+/* Dark mode styling */
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Header styling with baby pink background */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffc0cb; /* Baby pink color */
+  padding: 10px 20px;
+  color: white;
+}
+
+/* Content in the header */
+.header-content {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Note section styling with a mint green background */
+.note-keeper {
+  margin-top: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #e0f7da; /* Mint green color */
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-image: none; /* Remove background image */
+}
+
+/* Search bar styling */
+.search-bar input {
+  padding: 10px;
+  width: 80%;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  outline: none;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+/* Note input styling */
+.note-input {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.note-input textarea {
+  padding: 10px;
+  width: 80%;
+  height: 100px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.note-input button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #ff6f61;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.note-input button:hover {
+  background-color: #e65c50;
+}
+
+/* Notes list styling */
+.notes-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 20px;
+}
